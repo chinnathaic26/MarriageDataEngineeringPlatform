@@ -1,0 +1,11 @@
+{
+  "marriage_id": 1,
+  "wife": "Anu",
+  "husband": "Jagan",
+  "wedding_date": "2025-08-28",
+  "wedding_location": "Madurai",
+  "status": "FOREVER",
+  "love_score": 100,
+  "trust_score": 100,
+  "forever_flag": true
+}

@@ -1,0 +1,23 @@
+[
+  {
+    "memory_id": 1,
+    "date": "2025-08-28",
+    "title": "The Beginning",
+    "description": "The day our forever journey began.",
+    "category": "WEDDING"
+  },
+  {
+    "memory_id": 2,
+    "date": "2025-09-01",
+    "title": "First Days Together",
+    "description": "Learning, laughing and building our life together.",
+    "category": "MARRIAGE"
+  },
+  {
+    "memory_id": 3,
+    "date": "2026-08-28",
+    "title": "First Anniversary",
+    "description": "One beautiful year of our journey.",
+    "category": "ANNIVERSARY"
+  }
+]

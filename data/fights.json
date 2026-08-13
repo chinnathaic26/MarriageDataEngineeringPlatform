@@ -1,0 +1,29 @@
+[
+  {
+    "fight_id": "F001",
+    "date": "2025-09-10",
+    "reason": "Small misunderstanding",
+    "severity": "LOW",
+    "duration_minutes": 20,
+    "resolution": "Communication",
+    "status": "RESOLVED"
+  },
+  {
+    "fight_id": "F002",
+    "date": "2025-11-15",
+    "reason": "Who is right?",
+    "severity": "MEDIUM",
+    "duration_minutes": 45,
+    "resolution": "Discussion",
+    "status": "RESOLVED"
+  },
+  {
+    "fight_id": "F003",
+    "date": "2026-02-14",
+    "reason": "Valentine's Day expectations",
+    "severity": "MEDIUM",
+    "duration_minutes": 60,
+    "resolution": "Food + Communication",
+    "status": "RESOLVED"
+  }
+]
