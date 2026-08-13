@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>
+        Marriage Data Engineering Platform | Anu ❤️ Jagan
+    </title>
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <!-- ============================= -->
+    <!-- HEADER -->
+    <!-- ============================= -->
+
+    <header class="header">
+
+        <div class="logo">
+            ❤️ MARRIAGE.DE
+        </div>
+
+        <div class="system-status">
+            SYSTEM STATUS:
+            <span class="online">● ONLINE</span>
+        </div>
+
+    </header>
+
+
+    <!-- ============================= -->
+    <!-- HERO -->
+    <!-- ============================= -->
+
+    <main>
+
+        <section class="hero">
+
+            <div class="hero-content">
+
+                <p class="terminal-text">
+                    > Initializing Marriage Data Platform...
+                </p>
+
+                <p class="terminal-text">
+                    > Loading relationship dataset...
+                </p>
+
+                <p class="terminal-text">
+                    > Validating love records...
+                </p>
+
+                <h1>
+                    ANU <span>❤️</span> JAGAN
+                </h1>
+
+                <h2>
+                    MARRIAGE DATA ENGINEERING PLATFORM
+                </h2>
+
+                <p class="subtitle">
+                    Where Love Meets Data Engineering
+                </p>
+
+                <div class="wedding-info">
+
+                    <div class="metric">
+                        <span class="metric-label">
+                            WEDDING DATE
+                        </span>
+
+                        <span class="metric-value">
+                            28 AUG 2025
+                        </span>
+                    </div>
+
+                    <div class="metric">
+                        <span class="metric-label">
+                            PIPELINE STATUS
+                        </span>
+
+                        <span class="metric-value success">
+                            READY
+                        </span>
+                    </div>
+
+                    <div class="metric">
+                        <span class="metric-label">
+                            LOVE SCORE
+                        </span>
+
+                        <span class="metric-value">
+                            ∞
+                        </span>
+                    </div>
+
+                </div>
+
+
+                <!-- RUN BUTTON -->
+
+                <button
+                    id="runPipeline"
+                    class="run-button">
+
+                    ▶ RUN MARRIAGE PIPELINE
+
+                </button>
+
+            </div>
+
+        </section>
+
+
+        <!-- ============================= -->
+        <!-- PIPELINE -->
+        <!-- ============================= -->
+
+        <section
+            id="pipelineSection"
+            class="pipeline-section">
+
+            <h2>
+                LIVE ETL PIPELINE
+            </h2>
+
+            <p class="section-description">
+                Processing marriage data...
+            </p>
+
+
+            <div class="pipeline">
+
+                <div class="pipeline-node" id="source">
+                    <div class="node-icon">📦</div>
+                    <div class="node-title">
+                        SOURCE
+                    </div>
+                    <div class="node-status">
+                        WAITING
+                    </div>
+                </div>
+
+
+                <div class="arrow">
+                    ↓
+                </div>
+
+
+                <div class="pipeline-node" id="extract">
+                    <div class="node-icon">📥</div>
+                    <div class="node-title">
+                        EXTRACT
+                    </div>
+                    <div class="node-status">
+                        WAITING
+                    </div>
+                </div>
+
+
+                <div class="arrow">
+                    ↓
+                </div>
+
+
+                <div class="pipeline-node" id="transform">
+                    <div class="node-icon">⚙️</div>
+                    <div class="node-title">
+                        TRANSFORM
+                    </div>
+                    <div class="node-status">
+                        WAITING
+                    </div>
+                </div>
+
+
+                <div class="arrow">
+                    ↓
+                </div>
+
+
+                <div class="pipeline-node" id="validate">
+                    <div class="node-icon">🔍</div>
+                    <div class="node-title">
+                        VALIDATE
+                    </div>
+                    <div class="node-status">
+                        WAITING
+                    </div>
+                </div>
+
+
+                <div class="arrow">
+                    ↓
+                </div>
+
+
+                <div
+                    class="pipeline-node incident"
+                    id="fight">
+
+                    <div class="node-icon">
+                        🚨
+                    </div>
+
+                    <div class="node-title">
+                        FIGHT DETECTED
+                    </div>
+
+                    <div class="node-status">
+                        WAITING
+                    </div>
+
+                </div>
+
+
+                <div class="arrow">
+                    ↓
+                </div>
+
+
+                <div
+                    class="pipeline-node"
+                    id="resolve">
+
+                    <div class="node-icon">
+                        ❤️
+                    </div>
+
+                    <div class="node-title">
+                        RESOLVE
+                    </div>
+
+                    <div class="node-status">
+                        WAITING
+                    </div>
+
+                </div>
+
+
+                <div class="arrow">
+                    ↓
+                </div>
+
+
+                <div
+                    class="pipeline-node"
+                    id="load">
+
+                    <div class="node-icon">
+                        ☁️
+                    </div>
+
+                    <div class="node-title">
+                        LOAD
+                    </div>
+
+                    <div class="node-status">
+                        WAITING
+                    </div>
+
+                </div>
+
+
+                <div class="arrow">
+                    ↓
+                </div>
+
+
+                <div
+                    class="pipeline-node success-node"
+                    id="forever">
+
+                    <div class="node-icon">
+                        💕
+                    </div>
+
+                    <div class="node-title">
+                        FOREVER
+                    </div>
+
+                    <div class="node-status">
+                        WAITING
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ============================= -->
+        <!-- INCIDENT MONITOR -->
+        <!-- ============================= -->
+
+        <section class="monitor-section">
+
+            <h2>
+                🚨 MARRIAGE PRODUCTION MONITOR
+            </h2>
+
+            <div class="monitor-grid">
+
+                <div class="monitor-card">
+
+                    <span>
+                        TOTAL MEMORIES
+                    </span>
+
+                    <strong>
+                        ∞
+                    </strong>
+
+                </div>
+
+
+                <div class="monitor-card">
+
+                    <span>
+                        TOTAL FIGHTS
+                    </span>
+
+                    <strong id="fightCount">
+                        0
+                    </strong>
+
+                </div>
+
+
+                <div class="monitor-card">
+
+                    <span>
+                        RESOLVED INCIDENTS
+                    </span>
+
+                    <strong id="resolvedCount">
+                        0
+                    </strong>
+
+                </div>
+
+
+                <div class="monitor-card">
+
+                    <span>
+                        LOVE SCORE
+                    </span>
+
+                    <strong>
+                        100%
+                    </strong>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ============================= -->
+        <!-- FINAL MESSAGE -->
+        <!-- ============================= -->
+
+        <section
+            id="anniversary"
+            class="anniversary">
+
+            <div class="final-message">
+
+                <div class="success-icon">
+                    ❤️
+                </div>
+
+                <h2>
+                    PIPELINE COMPLETED
+                </h2>
+
+                <p>
+                    All marriage records processed successfully.
+                </p>
+
+                <p>
+                    All incidents resolved.
+                </p>
+
+                <h1>
+                    HAPPY WEDDING ANNIVERSARY
+                </h1>
+
+                <h3>
+                    ANU ❤️ JAGAN
+                </h3>
+
+                <p class="forever">
+                    SYSTEM STATUS:
+                    <strong>
+                        TOGETHER FOREVER
+                    </strong>
+                </p>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- ============================= -->
+    <!-- FOOTER -->
+    <!-- ============================= -->
+
+    <footer>
+
+        <p>
+            Marriage Data Engineering Platform
+        </p>
+
+        <p>
+            Built with ❤️ for Anu & Jagan
+        </p>
+
+    </footer>
+
+
+    <script src="js/pipeline.js"></script>
+
+</body>
+
+</html>
